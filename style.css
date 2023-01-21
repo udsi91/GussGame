@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Sofia+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  font-family: "DynaPuff", cursive;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-header {
+  margin: 1rem;
+}
+
+.second-header {
+  margin-bottom: 3rem;
+  /* text-align: center; */
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 50px;
+  border-radius: 5px;
+  background-color: #a4c5fc;
+  color: black;
+  cursor: pointer;
+}
+.try-again {
+  width: 80px;
+  border-radius: 5px;
+  background-color: #a4c5fc;
+  color: black;
+  cursor: pointer;
+}
+.num {
+  width: 320px;
+  border-radius: 5px;
+}
+
+.guess {
+  margin-bottom: 3rem;
+}
+
+.logo {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 3rem;
+}
